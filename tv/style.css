@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eee9fa !important;
+}
+
+nav {
+    width: 100%;
+    padding: 15px;
+    /* height: 0px; */
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(126, 126, 126, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+li {
+    padding: 5px;
+}
+
+input {
+    width: 25vmax;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(141, 140, 140);
+}
+
+select {
+    width: 25vmax;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(141, 140, 140);
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    /* height: 20px; */
+    text-align: center;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(126, 126, 126, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.parg {
+    width: 55%;
+    text-align: center;
+}
+
+.icon {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+i {
+    width: 20px;
+}
+
+.betwenn {
+    width: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    input {
+        width: 100%;
+    }
+    select {
+        width: 100%;
+    }
+    ul {
+        display: block;
+    }
+    footer {
+        display: block;
+        text-align: center;
+    }
+    .parg {
+        width: 100%;
+        text-align: center;
+    }
+    .icon {
+        width: 100%;
+        text-align: center;
+    }
+}
