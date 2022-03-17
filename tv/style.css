@@ -8,6 +8,10 @@ body {
 }
 
 nav {
+    /* position: -webkit-sticky !important; */
+    position: fixed !important;
+    top: 0 !important;
+    z-index: 1;
     width: 100%;
     padding: 15px;
     /* height: 0px; */
@@ -32,6 +36,10 @@ input {
     border: 1px solid rgb(141, 140, 140);
 }
 
+input.active {
+    border: 1px solid rgb(113, 102, 196);
+}
+
 select {
     width: 25vmax;
     padding: 5px;
@@ -53,7 +61,7 @@ footer {
     text-align: center;
 }
 
-.icon {
+.iconn {
     width: 40%;
     display: flex;
     justify-content: space-around;
@@ -61,11 +69,21 @@ footer {
 }
 
 i {
-    width: 20px;
+    font-size: 30px;
+}
+
+.iconn i:hover {
+    color: #ff55aa;
 }
 
 .betwenn {
     width: 5%;
+}
+
+.cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 @media only screen and (max-width: 768px) {
@@ -87,7 +105,7 @@ i {
         width: 100%;
         text-align: center;
     }
-    .icon {
+    .iconn {
         width: 100%;
         text-align: center;
     }
